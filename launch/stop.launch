@@ -1,0 +1,4 @@
+<launch>
+  <node pkg="start_arms" type="stop_left.bash" name="left_ur5_stopper" output="screen"/>
+  <node pkg="start_arms" type="stop_right.bash" name="right_ur5_stopper" output="screen"/>
+</launch>
